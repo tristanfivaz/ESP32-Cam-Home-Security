@@ -2,7 +2,7 @@
 
 This repository contains the code and steps you can take to build a low-cost, potentially self-powered, basic security system that uses machine learning to detect people in the field of view of the camera lens.  
   
-When someone is detected, the camera will turn the flash on, take a photo and save it to the local SD card and also send a WiFi notification via Blynk to alert you that someone is in your property or more etc.  
+When a person is detected in frame, it immediately sends an alert via Blynk to the recipients mobile phone, before flashing the person with 2 bright bursts from the ESP module.  
   
 This repository is also a great learning curve for people interested in a project to get started in the microcontroller space, which you can find more of [here!](https://github.com/tristanfivaz/Our-Living-Lab)  
 
